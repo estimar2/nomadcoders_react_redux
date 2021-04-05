@@ -4,16 +4,16 @@ Learning Vanilla-Redux and React-Redux
 
 ## list
 
-|  #0  |  INTRODUCTION   |                    |
-| :--: | :-------------: | :----------------: |
-| #0.1 | Read this First | <span>- [x]</span> |
-| #0.2 |  Introduction   | <span>- [x]</span> |
-| #0.3 |  Requirements   | <span>- [x]</span> |
-| #0.4 |  Project Setup  | <span>- [x]</span> |
+|  #0  |  INTRODUCTION   |     |
+| :--: | :-------------: | :-: |
+| #0.1 | Read this First |  ✔  |
+| #0.2 |  Introduction   |  ✔  |
+| #0.3 |  Requirements   |  ✔  |
+| #0.4 |  Project Setup  |  ✔  |
 
 |  #1  | PURE REDUX : COUNTER |                    |
 | :--: | :------------------: | :----------------: |
-| #1.0 |   Vanilla Counter    | <span>- [x]</span> |
+| #1.0 |   Vanilla Counter    |         ✔          |
 | #1.1 |  Store and Reducer   | <span>- [ ]</span> |
 | #1.2 |       Actions        | <span>- [ ]</span> |
 | #1.3 |    Subscriptions     | <span>- [ ]</span> |

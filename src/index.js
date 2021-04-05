@@ -1,28 +1,25 @@
+import { createStore } from "redux";
+
+// redux = data를 (관리하는데) 도와주는 역할을 하기 위해 만들어짐
+
+// sotre : data를 넣는 곳 ( ≒ 너의 state)
+//         state = 너의 application 에서 바뀌는 data
+//         store 를 만들면 reducer 를 만들어달라고 함
+//         reducer 은 => data를 modify 하는 함수
+
+// reducer = data를 바꾸고 moidfy 하는 걸 책임지는 함수
+
 const add = document.getElementById("add");
 const minus = document.getElementById("minus");
 const number = document.getElementById("span");
 
-let count = 0;
+const countModifier = (count = 0) => {
+  count++;
+  count--;
 
-number.innerText = count;
-
-const updateText = () => {
-  number.innerText = count;
+  return count;
 };
 
-const handleAdd = () => {
-  // console.log("Add");
-  count = count + 1;
+const countStore = createStore(countModifier);
 
-  updateText();
-};
-
-const handleMinus = () => {
-  // console.log("Minus");
-  count = count - 1;
-
-  updateText();
-};
-
-add.addEventListener("click", handleAdd);
-minus.addEventListener("click", handleMinus);
+console.log(countStore.getState());
