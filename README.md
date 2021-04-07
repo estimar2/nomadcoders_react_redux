@@ -14,34 +14,34 @@ Learning Vanilla-Redux and React-Redux
 |  #1  | PURE REDUX : COUNTER |                    |
 | :--: | :------------------: | :----------------: |
 | #1.0 |   Vanilla Counter    |         ✔          |
-| #1.1 |  Store and Reducer   | <span>- [ ]</span> |
-| #1.2 |       Actions        | <span>- [ ]</span> |
-| #1.3 |    Subscriptions     | <span>- [ ]</span> |
-| #1.4 |    Recap Refactor    | <span>- [ ]</span> |
+| #1.1 |  Store and Reducer   | |
+| #1.2 |       Actions        | |
+| #1.3 |    Subscriptions     | |
+| #1.4 |    Recap Refactor    | |
 
 |  #2  | PURE REDUX : TO DO LIST |                    |
 | :--: | :---------------------: | :----------------: |
-| #2.0 |      Vanilla ToDo       | <span>- [ ]</span> |
-| #2.1 |     State Mutation      | <span>- [ ]</span> |
-| #2.2 |      Delete To Do       | <span>- [ ]</span> |
-| #2.3 |  Delete To Do Part Two  | <span>- [ ]</span> |
-| #2.4 |       Conclusions       | <span>- [ ]</span> |
+| #2.0 |      Vanilla ToDo       | |
+| #2.1 |     State Mutation      | |
+| #2.2 |      Delete To Do       | |
+| #2.3 |  Delete To Do Part Two  | |
+| #2.4 |       Conclusions       | |
 
 |  #3  |     REACT REDUX      |                    |
 | :--: | :------------------: | :----------------: |
-| #3.0 |        Setup         | <span>- [ ]</span> |
-| #3.1 | Connection the Store | <span>- [ ]</span> |
-| #3.2 |   mapStateToProps    | <span>- [ ]</span> |
-| #3.3 |  mapDespatchToProps  | <span>- [ ]</span> |
-| #3.4 |    Deleting To Do    | <span>- [ ]</span> |
-| #3.5 |    Detail Screen     | <span>- [ ]</span> |
-| #3.6 |     Conclusions      | <span>- [ ]</span> |
+| #3.0 |        Setup         | |
+| #3.1 | Connection the Store | |
+| #3.2 |   mapStateToProps    | |
+| #3.3 |  mapDespatchToProps  | |
+| #3.4 |    Deleting To Do    | |
+| #3.5 |    Detail Screen     | |
+| #3.6 |     Conclusions      | |
 
 |  #4  | REDUX TOOLKIT (BOUNS) |                    |
 | :--: | :-------------------: | :----------------: |
-| #4.0 |     Redux Toolkit     | <span>- [ ]</span> |
-| #4.1 |     createAction      | <span>- [ ]</span> |
-| #4.2 |     createReducer     | <span>- [ ]</span> |
-| #4.3 |    configureStore     | <span>- [ ]</span> |
-| #4.4 |      createSlice      | <span>- [ ]</span> |
-| #4.5 |      Conclusions      | <span>- [ ]</span> |
+| #4.0 |     Redux Toolkit     | |
+| #4.1 |     createAction      | |
+| #4.2 |     createReducer     | |
+| #4.3 |    configureStore     | |
+| #4.4 |      createSlice      | |
+| #4.5 |      Conclusions      | |
