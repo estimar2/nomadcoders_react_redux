@@ -8,15 +8,13 @@ import { createStore } from "redux";
 //         reducer 은 => data를 modify 하는 함수
 
 // reducer = data를 바꾸고 moidfy 하는 걸 책임지는 함수
+//           return 하는 것이 중요
 
 const add = document.getElementById("add");
 const minus = document.getElementById("minus");
 const number = document.getElementById("span");
 
 const countModifier = (count = 0) => {
-  count++;
-  count--;
-
   return count;
 };
 
