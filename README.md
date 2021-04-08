@@ -1,9 +1,7 @@
 # Vanilla Redux
 
-Learning Vanilla-Redux and React-Redux
-[https://nomadcoders.co/redux-for-beginners]
-
----
+Learning Vanilla-Redux and React-Redux </br>
+<https://nomadcoders.co/redux-for-beginners>
 
 ## Study
 
@@ -52,10 +50,7 @@ Learning Vanilla-Redux and React-Redux
         <h3>subscribe</h3>
             : store안에 있는 변화들을 알 수 있게 해줌
     </li>
-</ul>
-
-<ul>
-    <li>
+     <li>
         <h3>❌ NEVER MUTATE STATE * MUTATE STATE는 절대 사용하지 말것* ❌</h3>
         <ul>
             <li> => mutate 하는 게 아니라 새로운 objects를 리턴해야 함. </li>
@@ -69,8 +64,6 @@ Learning Vanilla-Redux and React-Redux
         </ul>
     </li>
 </ul>
-
----
 
 ## list
 
