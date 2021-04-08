@@ -80,7 +80,7 @@ Learning Vanilla-Redux and React-Redux </br>
 | #1.1 |  Store and Reducer   |  ✔  | #2.1 |     State Mutation      |  ✔  |
 | #1.2 |       Actions        |  ✔  | #2.2 |      Delete To Do       |  ✔  |
 | #1.3 |    Subscriptions     |  ✔  | #2.3 |  Delete To Do Part Two  |  ✔  |
-| #1.4 |    Recap Refactor    |  ✔  | #2.4 |       Conclusions       |     |
+| #1.4 |    Recap Refactor    |  ✔  | #2.4 |       Conclusions       |  ✔  |
 
 |  #3  |     REACT REDUX      |     |  #4  | REDUX TOOLKIT (BOUNS) |     |
 | :--: | :------------------: | :-: | :--: | :-------------------: | :-: |
