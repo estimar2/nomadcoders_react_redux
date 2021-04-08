@@ -9,11 +9,16 @@ import { createStore } from "redux";
 
 // reducer : data를 바꾸고 moidfy 하는 걸 책임지는 함수
 //           return 하는 것이 중요
+//           return 하는 것은 무엇이든지 어플리케이션의 state 가 되는 것
+//           current state 와 action 이 함께 불려짐
 
 // action : redux에서 function 을 부룰때 쓰는 두번째 VREyeParameters, 혹은 argument
 
 // reducer 에 action을 보내는 방법 : store를 이용하는 방법
 //                                   store.dispatch()
+//                                   dispatch가 reducer을 불러서 current state와 actions을 더함
+//                                                                             ( action 은 object 여야함, string 이 될 수 없음 )
+//                                                                               actions 은 type 을 필수로 가져야함
 
 // subscribe : sotre안에 있는 변화들을 알 수 있게 해줌
 
