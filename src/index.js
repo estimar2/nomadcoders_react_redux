@@ -31,7 +31,7 @@ const reducer = (state = [], action) => {
     case ADD_TODO:
       return [{ text: action.text, id: Date.now() }, ...state];
     case DELETE_TODO:
-      return [];
+      return state.filter((toDo) => toDo.id !== action.id);
     default:
       return state;
   }
@@ -39,7 +39,7 @@ const reducer = (state = [], action) => {
 
 const store = createStore(reducer);
 
-store.subscribe(() => console.log(store.getState()));
+// store.subscribe(() => console.log(store.getState()));
 
 const dispatchAddToDo = (text) => {
   store.dispatch(addToDo(text));
@@ -48,7 +48,7 @@ const dispatchAddToDo = (text) => {
 const dispatchDeleteToDo = (e) => {
   // console.log(e.target.parentNode.id);
 
-  const id = e.target.parentNode.id;
+  const id = parseInt(e.target.parentNode.id);
   store.dispatch(deleteToDo(id));
 };
 
