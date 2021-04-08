@@ -13,8 +13,8 @@ Learning Vanilla-Redux and React-Redux
 
 |  #1  | PURE REDUX : COUNTER |     |  #2  | PURE REDUX : TO DO LIST |     |
 | :--: | :------------------: | :-: | :--: | :---------------------: | :-: |
-| #1.0 |   Vanilla Counter    |  ✔  | #2.0 |      Vanilla ToDo       |     |
-| #1.1 |  Store and Reducer   |  ✔  | #2.1 |     State Mutation      |     |
+| #1.0 |   Vanilla Counter    |  ✔  | #2.0 |      Vanilla ToDo       |  ✔  |
+| #1.1 |  Store and Reducer   |  ✔  | #2.1 |     State Mutation      |  ✔  |
 | #1.2 |       Actions        |  ✔  | #2.2 |      Delete To Do       |     |
 | #1.3 |    Subscriptions     |  ✔  | #2.3 |  Delete To Do Part Two  |     |
 | #1.4 |    Recap Refactor    |  ✔  | #2.4 |       Conclusions       |     |
