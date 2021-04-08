@@ -15,29 +15,44 @@ import { createStore } from "redux";
 // reducer 에 action을 보내는 방법 : store를 이용하는 방법
 //                                   store.dispatch()
 
+// subscribe : sotre안에 있는 변화들을 알 수 있게 해줌
+
 const add = document.getElementById("add");
 const minus = document.getElementById("minus");
 const number = document.getElementById("span");
 
+number.innerText = 0;
+
 const countModifier = (count = 0, action) => {
-  if (action.type === "ADD"){
+  // console.log(count, action);
+
+  if (action.type === "ADD") {
     return count + 1;
-  } else if(action.type === "MINUS"){
+  } else if (action.type === "MINUS") {
     return count - 1;
   } else {
     return count;
   }
-
 };
 
 const countStore = createStore(countModifier);
 
-countStore.dispatch({type : "ADD"});
-countStore.dispatch({type : "ADD"});
-countStore.dispatch({type : "ADD"});
-countStore.dispatch({type : "ADD"});
-countStore.dispatch({type : "ADD"});
-countStore.dispatch({type : "ADD"});
-countStore.dispatch({type : "MINUS"})
+const onChange = () => {
+  number.innerText = countStore.getState();
+};
 
-console.log(countStore.getState())
+countStore.subscribe(onChange);
+
+const handleAdd = () => {
+  countStore.dispatch({ type: "ADD" });
+};
+
+const handleMinus = () => {
+  countStore.dispatch({ type: "MINUS" });
+};
+
+// add.addEventListener("click", () => countStore.dispatch({ type: "ADD" }));
+// minus.addEventListener("click", () => countStore.dispatch({ type: "MINUS" }));
+
+add.addEventListener("click", handleAdd);
+minus.addEventListener("click", handleMinus);
